@@ -7,23 +7,23 @@ import Image from "next/image"
 export function ServicesSection() {
   const services = [
     {
-      title: "Project Management",
-      description: "End-to-end delivery of projects from initiation through to closure, ensuring scope, time, cost, and quality targets are met.",
+      title: "Legal Research & Analysis",
+      description: "Researching case law, statutes, policies, and regulatory frameworks to produce clear legal opinions, case summaries, and practical legal insights.",
       image: "/images/web-design.svg",
     },
     {
-      title: "Risk & Change Control",
-      description: "Identifying, assessing, and mitigating project risks while managing change requests to protect delivery outcomes.",
+      title: "Contract Drafting & Review",
+      description: "Drafting and reviewing contracts, MOUs, licensing agreements, compliance documents, affidavits, pleadings, and other formal legal materials.",
       image: "/images/product-design.svg",
     },
     {
-      title: "Stakeholder Management",
-      description: "Building and maintaining relationships with stakeholders at all levels, ensuring clear communication and alignment throughout the project lifecycle.",
+      title: "IP, Data & Technology Law",
+      description: "Focused on intellectual property, copyright, trademarks, patents, data law, digital regulation, and the legal dimensions of emerging technologies.",
       image: "/images/user-research.svg",
     },
     {
-      title: "Program Management",
-      description: "Coordinating multiple interdependent projects to deliver strategic organisational goals and benefits realisation.",
+      title: "Compliance & Due Diligence",
+      description: "Supporting regulatory compliance, corporate documentation, IP risk assessments, due diligence reviews, and structured document management.",
       image: "/images/motion-graphics.svg",
     },
   ]
@@ -34,10 +34,10 @@ export function ServicesSection() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-4xl md:text-[52px] md:leading-[60px] font-bold mb-4">
-              My broad <span className="bg-[#FF4A60] text-white px-3 py-1 inline-block">set of services</span>
+        My core  <span className="bg-[#FF4A60] text-white px-3 py-1 inline-block">areas of expertise</span>
             </h2>
             <p className="text-[#393939] text-base md:text-lg font-medium leading-relaxed md:leading-[30px] max-w-2xl mx-auto">
-              PRINCE2-certified project management professional delivering structured, outcome-focused project delivery across technical and cross-functional environments.
+              I combine legal training, research experience, contract and compliance work, and legal technology projects to support modern legal, regulatory, and business challenges.
             </p>
           </div>
 
@@ -75,14 +75,14 @@ export function ServicesSection() {
               </div>
               <h3 className="text-[28px] leading-[40px] font-bold mb-4 text-[#0B0B0B]">Get in touch</h3>
               <p className="text-[18px] leading-[30px] font-medium text-[#393939] mb-8">
-                Have a project you need managed? Get in touch. I would love to help deliver it successfully.
+                Interested in legal tech, IP/data law, research collaboration, or working student opportunities? I’d be happy to connect.
               </p>
               <Button
                 className="bg-black text-white hover:bg-black/90 rounded-[16px] px-12 py-6 font-medium text-[18px] w-full max-w-[340px] h-[64px]"
-                onClick={() => window.location.href = "mailto:omiremiTofunmi@gmail.com"}
+                onClick={() => window.location.href = "mailto:oluwatofunmisin4@gmail.com"}
               >
                 <Mail className="w-5 h-5 mr-2" />
-                Get in touch
+                Contact me
               </Button>
             </div>
           </div>

@@ -40,7 +40,7 @@ export function Navigation() {
 
         <Button
           className="bg-black text-white hover:bg-black/90 rounded-sm px-5 h-12 min-w-12 shrink-0"
-          onClick={() => window.location.href = "mailto:omiremiTofunmi@gmail.com"}
+          onClick={() => window.location.href = "mailto:oluwatofunmisin4@gmail.com"}
         >
           <Mail className="w-10 h-10" strokeWidth={2.5} />
         </Button>

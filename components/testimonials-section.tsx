@@ -36,19 +36,15 @@ export function TestimonialsSection() {
 
               <div className="md:max-w-[65%]">
                 <p className="text-sm md:text-base lg:text-lg mb-6 leading-relaxed">
-                  Tofunmi is an exceptional Project Manager: structured, calm
-                  under pressure, and always three steps ahead. Her ability to
-                  manage stakeholders while keeping the team focused on delivery
-                  made a real difference on our project. A true PRINCE2
-                  professional.
+                  Tofunmi combines strong legal reasoning with a modern understanding of technology and business. She is detail-oriented, reliable, and able to approach complex legal and regulatory issues with clarity and structure. Her work reflects both legal precision and a forward-thinking legal tech mindset.
                 </p>
 
                 <div>
                   <div className="font-bold text-base md:text-lg">
-                    Akinlotan Gideon
+                    Olorunfemi Tayo
                   </div>
                   <div className="text-gray-600 text-sm md:text-base">
-                    CTO, DVO
+                    CEO, CWT
                   </div>
                 </div>
               </div>

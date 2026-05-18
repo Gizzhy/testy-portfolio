@@ -8,7 +8,7 @@ This is a single-page portfolio built with Next.js, Tailwind CSS, and GSAP anima
 
 ## Contact
 
-**Email:** omiremiTofunmi@gmail.com
+**Email:** oluwatofunmisin4@gmail.com
 
 ## Tech Stack
 

@@ -63,7 +63,7 @@ export function PortfolioSection() {
                 </p>
 
                 <a
-                  href="mailto:omiremiTofunmi@gmail.com"
+                  href="mailto:oluwatofunmisin4@gmail.com"
                   className="flex items-center gap-2 font-semibold text-[#0B0B0B] hover:gap-3 transition-all text-sm md:text-base"
                 >
                   Enquire about this work

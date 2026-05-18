@@ -17,11 +17,11 @@ export function Footer() {
               </p>
             </div>
             <a
-              href="mailto:omiremiTofunmi@gmail.com"
+              href="mailto:oluwatofunmisin4@gmail.com"
               className="bg-black text-white hover:bg-black/80 rounded-xl px-8 py-4 font-semibold text-base md:text-lg flex items-center gap-2 shrink-0"
             >
               <Mail className="w-5 h-5" />
-              omiremiTofunmi@gmail.com
+              oluwatofunmisin4@gmail.com
             </a>
           </div>
 
@@ -47,14 +47,14 @@ export function Footer() {
               </p>
               <div className="flex gap-3">
                 <a
-                  href="mailto:omiremiTofunmi@gmail.com"
+                  href="mailto:oluwatofunmisin4@gmail.com"
                   className="w-10 h-10 bg-[#2F81F7] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
                   aria-label="Email"
                 >
                   <Mail className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/Tofunmi-omiremi-abba1b220"
+                  href="https://www.linkedin.com/in/testimony-akinwumi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-[#2F81F7] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
@@ -109,10 +109,10 @@ export function Footer() {
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4 shrink-0" />
                   <a
-                    href="mailto:omiremiTofunmi@gmail.com"
+                    href="mailto:oluwatofunmisin4@gmail.com"
                     className="hover:text-white transition-colors"
                   >
-                    omiremiTofunmi@gmail.com
+                    oluwatofunmisin4@gmail.com
                   </a>
                 </li>
                 <li className="flex items-start gap-2">

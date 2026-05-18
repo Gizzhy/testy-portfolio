@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Oluwatofunmisin Akinwumi",
-      url: "mailto:omiremiTofunmi@gmail.com",
+      url: "mailto:oluwatofunmisin4@gmail.com",
     },
   ],
   creator: "Oluwatofunmisin Akinwumi",

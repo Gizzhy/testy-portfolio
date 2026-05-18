@@ -67,7 +67,7 @@ export function ExperienceSection() {
             <Button
               className="bg-white text-black hover:bg-gray-50 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]"
               onClick={() =>
-                (window.location.href = 'mailto:omiremiTofunmi@gmail.com')
+                (window.location.href = 'mailto:oluwatofunmisin4@gmail.com')
               }
             >
               <FileText className="w-5 h-5" />

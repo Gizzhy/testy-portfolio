@@ -28,11 +28,7 @@ export function AboutSection() {
               </span>
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-              I'm a Project Manager and PRINCE2 Practitioner (Foundation &amp;
-              Practitioner certified) with over 5 years of experience delivering
-              projects across tech, DeFi, and education sectors. Based in the
-              Germany, I specialise in structured project delivery, risk
-              and change control, and stakeholder engagement.
+              I’m a qualified lawyer and M.Sc. student in International Studies in Intellectual Property and Data Law at Technische Universität Dresden, combining over five years of legal experience with a growing focus on legal technology, data law, and innovation. My work sits at the intersection of law, business, and technology, with experience in legal research, contract review, IP, compliance, and digital legal tools.
             </p>
           </div>
 
@@ -41,12 +37,10 @@ export function AboutSection() {
               <div className="w-5 h-5 bg-[#6366F1] border-2 border-black rounded-[5px] shrink-0 mt-1"></div>
               <div>
                 <h3 className="text-lg md:text-xl font-bold mb-2">
-                  PRINCE2 Certified (Foundation &amp; Practitioner)
+                  Qualified Lawyer & IP/Data Law Student
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                  Formally trained and certified in one of the world's leading
-                  project management methodologies, enabling structured,
-                  repeatable, and scalable project delivery.
+                 Legally trained across intellectual property, corporate and commercial law, contract review, regulatory compliance, and dispute resolution, with current academic focus on copyright, trademarks, patents, data law, and digital regulation.
                 </p>
               </div>
             </div>
@@ -55,13 +49,10 @@ export function AboutSection() {
               <div className="w-5 h-5 bg-[#FF6B7A] border-2 border-black rounded-[5px] shrink-0 mt-1"></div>
               <div>
                 <h3 className="text-lg md:text-xl font-bold mb-2">
-                  5+ years of project leadership
+                  Legal Tech & Research-Driven Thinker
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                  From coordinating course rollouts at CWT to leading
-                  decentralised finance projects and managing an animal farm
-                  application, a track record of delivering under pressure
-                  across diverse industries.
+                  I combine legal analysis with practical technology skills, building projects such as an NLP-based Nigerian legal case summarizer, machine learning models, and workflow automations that reflect my interest in modernising legal work.
                 </p>
               </div>
             </div>
@@ -70,7 +61,7 @@ export function AboutSection() {
           <Button
             className="bg-[#0B0B0B] text-white hover:bg-black/90 rounded-lg py-5 px-8 md:py-5.5 md:px-15.5 text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]"
             onClick={() =>
-              (window.location.href = "mailto:omiremiTofunmi@gmail.com")
+              (window.location.href = "mailto:oluwatofunmisin4@gmail.com")
             }
           >
             <Mail className="w-5 h-5" />
