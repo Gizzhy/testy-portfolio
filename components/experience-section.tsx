@@ -56,13 +56,11 @@ export function ExperienceSection() {
             <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 md:mb-8 leading-[1.3]">
               Take a look at my{' '}
               <span className="bg-[#6366F1] text-white px-3 py-1 inline-block">
-                past experience
+                professional experience
               </span>
             </h2>
             <p className="text-gray-400 mb-8 md:mb-10 leading-relaxed text-base md:text-lg">
-              Over 5 years of progressive project leadership across tech, DeFi,
-              and education, delivering results as a PRINCE2 Practitioner across
-              remote, hybrid, and on-site environments.
+              Over five years of legal experience across intellectual property, corporate and commercial law, regulatory compliance, litigation support, and legal research. My work combines practical legal drafting, case analysis, due diligence support, and a growing focus on IP, data law, and legal technology.
             </p>
             <Button
               className="bg-white text-black hover:bg-gray-50 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]"
