@@ -1,0 +1,72 @@
+"use client";
+
+import Image from "next/image";
+
+export function TestimonialsSection() {
+  return (
+    <section className="container mx-auto px-4 py-16 md:py-24">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-12 pt-4 md:pt-12">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-[1.3]">
+            What colleagues say
+            <br />
+            about{" "}
+            <span className="bg-[#2F81F7] text-white px-3 py-1 inline-block">
+              my work
+            </span>
+          </h2>
+          <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto pb-8">
+            Feedback from stakeholders and teammates I've had the privilege of
+            working with across project delivery.
+          </p>
+        </div>
+
+        <div className="relative max-w-5xl mx-auto">
+          <div className="relative">
+            <div className="testimonial-box bg-white border-4 border-black rounded-3xl py-8 md:py-14 px-6 md:px-8 md:pr-72 lg:pr-72">
+              <div className="absolute -top-6 md:-top-8 left-6 md:left-8 w-12 h-12 md:w-16 md:h-16">
+                <Image
+                  src="/images/633b1c81e34cfb82b85454eb-quote-s.png"
+                  alt="Quote"
+                  width={64}
+                  height={64}
+                  className="w-full h-full"
+                />
+              </div>
+
+              <div className="md:max-w-[65%]">
+                <p className="text-sm md:text-base lg:text-lg mb-6 leading-relaxed">
+                  Tofunmi is an exceptional Project Manager: structured, calm
+                  under pressure, and always three steps ahead. Her ability to
+                  manage stakeholders while keeping the team focused on delivery
+                  made a real difference on our project. A true PRINCE2
+                  professional.
+                </p>
+
+                <div>
+                  <div className="font-bold text-base md:text-lg">
+                    Akinlotan Gideon
+                  </div>
+                  <div className="text-gray-600 text-sm md:text-base">
+                    CTO, DVO
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="testimonial-portrait absolute -right-20 top-1/2 -translate-y-1/2 w-[440px] h-[440px] rounded-full overflow-hidden hidden lg:block">
+              <Image
+                src="/images/Tofunmi-1.JPG"
+                alt="Oluwatofunmisin Akinwumi"
+                fill
+                className="object-cover"
+                unoptimized
+                priority
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
