@@ -21,7 +21,7 @@ export function PortfolioSection() {
     company: 'Legal Tech Project',
     period: '2025',
     bgColor: 'bg-[#6366F1]',
-    illustration: '/images/work.png',
+    illustration: '/images/sum.png',
   },
   {
     title: 'Ride Fare Estimator',
@@ -31,7 +31,7 @@ export function PortfolioSection() {
     company: 'Data Science Project',
     period: '2025',
     bgColor: 'bg-[#2F81F7]',
-    illustration: '/images/studio-workspace.svg',
+    illustration: '/images/fare.png',
   },
 ];
 
