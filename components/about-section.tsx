@@ -11,7 +11,7 @@ export function AboutSection() {
         <div className="about-image flex justify-center">
           <div className="relative w-full max-w-lg aspect-square border-4 border-black rounded-full overflow-hidden bg-[#FF6B6B] shadow-[-8px_8px_0px_0px_rgba(0,0,0,1)]">
             <Image
-              src="/images/Tofunmi-2.PNG"
+              src="/images/testyy.jpg"
               alt="Oluwatofunmisin Akinwumi"
               fill
               className="object-cover"

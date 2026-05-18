@@ -52,7 +52,7 @@ export function TestimonialsSection() {
 
             <div className="testimonial-portrait absolute -right-20 top-1/2 -translate-y-1/2 w-[440px] h-[440px] rounded-full overflow-hidden hidden lg:block">
               <Image
-                src="/images/Tofunmi-1.JPG"
+                src="/images/testyyy.jpg"
                 alt="Oluwatofunmisin Akinwumi"
                 fill
                 className="object-cover"

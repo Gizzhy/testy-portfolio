@@ -31,7 +31,7 @@ export function Footer() {
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-8 h-8 rounded-full overflow-hidden shrink-0">
                   <Image
-                    src="/images/Tofunmi-2.PNG"
+                    src="/images/testy.jpg"
                     alt="Oluwatofunmisin Akinwumi"
                     width={32}
                     height={32}

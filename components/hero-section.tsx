@@ -14,7 +14,7 @@ export function HeroSection() {
             <span className="bg-[#FF6B7A] text-white px-3 py-1 inline-block">
               Oluwatofunmisin Akinwumi
             </span>
-            , a qualified lawyer
+            , a Qualified Lawyer
             <span className="bg-[#2F81F7] text-white px-3 py-1 inline-block">
               bridging law and technology
             </span>
@@ -52,7 +52,7 @@ export function HeroSection() {
         <div className="hero-image flex justify-center md:justify-end">
           <div className="relative w-full max-w-md aspect-square bg-[#FDB927] border-4 border-black rounded-3xl overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
             <Image
-              src="/images/Tofunmi-2.PNG"
+              src="/images/testy.jpg"
               alt="Oluwatofunmisin Akinwumi"
               className="w-full h-full object-cover"
               priority
