@@ -2,28 +2,38 @@ import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
 export function PortfolioSection() {
-  const projects = [
-    {
-      title: 'Farm Alert: Animal Farm Application',
-      description:
-        'Led the full project lifecycle as Technical Project Manager for a mobile application designed to monitor and manage animal farm operations. Coordinated cross-functional teams, managed stakeholder expectations, and ensured on-time delivery in a remote environment.',
-      tag: 'Technical Project Management',
-      company: 'Farm Alert',
-      period: 'Oct 2022 – Dec 2024',
-      bgColor: 'bg-[#6366F1]',
-      illustration: '/images/work.png',
-    },
-    {
-      title: 'DVO: Decentralised Voting Application',
-      description:
-        'Managed the end-to-end delivery of a decentralised voting platform as Project Manager. Oversaw product development, program management, and stakeholder coordination to successfully ship a blockchain-based voting solution.',
-      tag: 'Project Management',
-      company: 'DVO',
-      period: 'Jun 2021 – Jul 2022',
-      bgColor: 'bg-[#2F81F7]',
-      illustration: '/images/studio-workspace.svg',
-    },
-  ];
+ const projects = [
+  {
+    title: 'GDPR Privacy Policy Analyzer',
+    description:
+      'GDPR Privacy Policy Analyzer is a LegalTech web app that screens privacy policies for key GDPR transparency requirements. It uses keyword-based text analysis to classify policy sections as Strong, Weak, or Missing, extracts evidence, provides legal recommendations, and generates downloadable CSV and PDF reports.',
+    tag: 'pandas· Streamlit · Python · ReportLab',
+    company: 'Legal Tech Project',
+    period: '2026',
+    bgColor: 'bg-[#6366F1]',
+    illustration: '/images/gdpr.png',
+  },
+  {
+    title: 'Nigeria Legal Case Summarizer',
+    description:
+      'Built a legal tech web app that uses Natural Language Processing to automatically summarise Nigerian legal cases, helping users quickly identify key facts, holdings, and outcomes. The project combines legal research experience with practical software development.',
+    tag: 'NLP · Python · Streamlit',
+    company: 'Legal Tech Project',
+    period: '2025',
+    bgColor: 'bg-[#6366F1]',
+    illustration: '/images/work.png',
+  },
+  {
+    title: 'Ride Fare Estimator',
+    description:
+      'Developed a machine learning model trained on real-world taxi data to predict ride fares. The project involved data cleaning, feature engineering, model training, and evaluation, showing practical experience with data-driven systems.',
+    tag: 'Python · Jupyter Notebook · Machine Learning',
+    company: 'Data Science Project',
+    period: '2025',
+    bgColor: 'bg-[#2F81F7]',
+    illustration: '/images/studio-workspace.svg',
+  },
+];
 
   return (
     <section id="projects" className="container mx-auto px-4 py-16 md:py-24">

@@ -43,7 +43,7 @@ export function Footer() {
                 </span>
               </div>
               <p className="text-gray-400 mb-6 text-sm leading-relaxed">
-                Project Manager | PRINCE2 Practitioner | Based in Germany.
+                Qualified Lawyer | M.Sc. Candidate in IP & Data Law | Legal Research, Compliance & Legal Tech | Based in Germany.
               </p>
               <div className="flex gap-3">
                 <a

@@ -12,43 +12,54 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
-  title: "Oluwatofunmisin Akinwumi | Project Manager & PRINCE2 Practitioner",
+  title: "Oluwatofunmisin Akinwumi | Lawyer, IP & Data Law Student",
   description:
-    "Oluwatofunmisin Akinwumi is a PRINCE2 certified Project Manager based in the Germany, specialising in Project Delivery, Risk & Change Control, and Stakeholder Management.",
+    "Oluwatofunmisin Akinwumi is a qualified lawyer and M.Sc. student in International Studies in Intellectual Property and Data Law at Technische Universität Dresden, with experience in legal research, contract review, compliance, IP law, and legal technology.",
+
   keywords: [
     "Oluwatofunmisin Akinwumi",
-    "Project Manager",
-    "PRINCE2 Practitioner",
-    "PRINCE2 Foundation",
-    "Project Delivery",
-    "Risk and Change Control",
-    "Stakeholder Management",
-    "Programme Management",
-    "UK Project Manager",
-    "Remote Project Manager",
+    "Qualified Lawyer",
+    "IP Law",
+    "Data Law",
+    "Intellectual Property Law",
+    "Legal Research",
+    "Contract Review",
+    "Regulatory Compliance",
+    "Legal Tech",
+    "Legal Technology",
+    "NLP Legal Tools",
+    "Python Legal Tech",
+    "TU Dresden",
+    "International Studies in Intellectual Property and Data Law",
+    "Lawyer in Germany",
   ],
+
   authors: [
     {
       name: "Oluwatofunmisin Akinwumi",
-      url: "mailto:oluwatofunmisin4@gmail.com",
+      url: "mailto:testimonyakinwumi4@gmail.com",
     },
   ],
+
   creator: "Oluwatofunmisin Akinwumi",
+
   openGraph: {
-    title: "Oluwatofunmisin Akinwumi | Project Manager & PRINCE2 Practitioner",
+    title: "Oluwatofunmisin Akinwumi | Lawyer, IP & Data Law Student",
     description:
-      "PRINCE2 Practitioner specialising in Project Delivery, Risk and Change Control, and Stakeholder Management. Based in the Germany.",
+      "Qualified lawyer and M.Sc. student in IP & Data Law, combining legal research, contract experience, compliance knowledge, and legal tech projects.",
     type: "website",
     locale: "en_GB",
     siteName: "Oluwatofunmisin Akinwumi Portfolio",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Oluwatofunmisin Akinwumi | Project Manager",
+    title: "Oluwatofunmisin Akinwumi | Lawyer & Legal Tech Enthusiast",
     description:
-      "PRINCE2 Practitioner specialising in Project Delivery, Risk and Change Control, and Stakeholder Management.",
+      "Qualified lawyer focused on IP, data law, legal research, compliance, and legal technology.",
     creator: "@Tofunmiomiremi",
   },
+
   robots: {
     index: true,
     follow: true,

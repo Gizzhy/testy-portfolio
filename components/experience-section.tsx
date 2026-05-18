@@ -6,47 +6,39 @@ import Image from 'next/image';
 
 export function ExperienceSection() {
   const experiences = [
-    {
-      period: 'Oct 2022 – Dec 2024',
-      title: 'Technical Project Manager',
-      company: 'Farm Alert · Freelance · Remote',
-      description:
-        'Led an application project for an animal farm. Managed the full project lifecycle remotely, applying organisation skills, program management, risk control, and cross-functional team coordination to deliver on time.',
-      icon: '/images/agency.png',
-    },
-    {
-      period: 'Jun 2021 – Jul 2022',
-      title: 'Project Manager',
-      company: 'DVO · Full-time · Remote',
-      description:
-        'Managed a decentralised voting application project. Oversaw product development, program management, stakeholder engagement, and end-to-end delivery of a blockchain-based voting platform.',
-      icon: '/images/company.png',
-    },
-    {
-      period: 'Feb 2020 – Apr 2021',
-      title: 'Project Coordinator',
-      company: 'CWT',
-      description:
-        'Coordinated development timelines for course landing pages and learning modules. Managed interactive challenges and student content rollouts. Supported community engagement through newsletters, events, and tutorials. Maintained brand consistency and release cadence working closely with developers and content creators.',
-      icon: '/images/startup.png',
-    },
-    {
-      period: 'May 2019 – Apr 2021',
-      title: 'Junior Project Lead',
-      company: 'CodeWithTy · Full-time · Lagos, Nigeria (Remote)',
-      description:
-        'Led junior project initiatives, supporting delivery management and coordinating development activities across remote teams in Nigeria.',
-      icon: '/images/startup.png',
-    },
-    {
-      period: 'Sep 2019 – Jan 2021',
-      title: 'Project Manager',
-      company: 'Team Decentralised Finance · Full-time · Nigeria (Hybrid)',
-      description:
-        'Managed projects within a decentralised finance team. Applied project management frameworks and project planning skills to coordinate deliverables, manage risks, and align team efforts.',
-      icon: '/images/company.png',
-    },
-  ];
+  {
+    period: 'Aug 2024 – Sep 2025',
+    title: 'Legal Consultant – IP & Corporate Law',
+    company: 'Premier Law Firm · Nigeria',
+    description:
+      'Conducted legal research across intellectual property, corporate, and commercial law. Drafted and reviewed contracts, MOUs, licensing agreements, and compliance documentation, while supporting due diligence, IP risk assessments, and dispute resolution matters.',
+    icon: '/images/agency.png',
+  },
+  {
+    period: 'Aug 2023 – Jul 2024',
+    title: 'Legal Assistant – Regulatory & Litigation Support',
+    company: 'State High Court · Nigeria',
+    description:
+      'Prepared legal opinions, case summaries, procedural documents, and formal correspondence. Supported judicial research, maintained structured case files, and monitored deadlines across multiple hearings and proceedings.',
+    icon: '/images/company.png',
+  },
+  {
+    period: 'Aug 2019 – Apr 2022',
+    title: 'Legal Officer – Research & Compliance',
+    company: 'Blessings Chambers, Iyanu Olumuagun & Associates · Nigeria',
+    description:
+      'Researched case law, statutes, and regulatory frameworks with a focus on commercial and compliance-related matters. Drafted contracts, affidavits, pleadings, and other legal documents, while supporting trial preparation and document review.',
+    icon: '/images/startup.png',
+  },
+  {
+    period: 'Feb 2026 – Mar 2026',
+    title: 'Event Assistant',
+    company: 'Genesis Event · Dresden, Germany',
+    description:
+      'Coordinated guest management and on-site operations at professional events in Germany, demonstrating reliability, organisation, and communication skills in a German-speaking environment.',
+    icon: '/images/company.png',
+  },
+];
 
   return (
     <section id="experience" className="bg-black py-16 md:py-24">
