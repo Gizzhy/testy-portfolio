@@ -6,6 +6,14 @@ import Image from 'next/image';
 
 export function ExperienceSection() {
   const experiences = [
+    {
+    period: 'Nov 2025 – Present',
+    title: 'Legal Counsel – Technology & Commercial Law',
+    company: 'CWT · Remote, UK',
+    description:
+      'Supported a digital product and software development company on legal, commercial, and regulatory matters. Assisted with contract drafting and review, client documentation, intellectual property considerations, data privacy issues, and risk management for web, mobile, cloud, and blockchain technology projects.',
+    icon: '/images/company.png',
+  },
   {
     period: 'Aug 2024 – Sep 2025',
     title: 'Legal Consultant – IP & Corporate Law',
@@ -29,14 +37,6 @@ export function ExperienceSection() {
     description:
       'Researched case law, statutes, and regulatory frameworks with a focus on commercial and compliance-related matters. Drafted contracts, affidavits, pleadings, and other legal documents, while supporting trial preparation and document review.',
     icon: '/images/startup.png',
-  },
-  {
-    period: 'Feb 2026 – Mar 2026',
-    title: 'Event Assistant',
-    company: 'Genesis Event · Dresden, Germany',
-    description:
-      'Coordinated guest management and on-site operations at professional events in Germany, demonstrating reliability, organisation, and communication skills in a German-speaking environment.',
-    icon: '/images/company.png',
   },
 ];
 
