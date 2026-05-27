@@ -23,7 +23,7 @@ export function PortfolioSection() {
     period: '2026',
     bgColor: 'bg-[#6366F1]',
     illustration: '/images/gdpr.png',
-    link: 'https://gdpr-privacy-policy-analyzer-fh4ynkvxkk2v62xhd3nevs.streamlit.app/?utm_source=chatgpt.com'
+    link: 'https://gdpr-privacy-policy-analyzer-fh4ynkvxkk2v62xhd3nevs.streamlit.app/'
 
   },
   {
