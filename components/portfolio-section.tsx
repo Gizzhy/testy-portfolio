@@ -12,6 +12,7 @@ export function PortfolioSection() {
     period: '2026',
     bgColor: 'bg-[#6366F1]',
     illustration: '/images/cra.png',
+    link: 'https://contract-risk-analyzer-vgqphapmcsa6nx25aeenyb.streamlit.app/'
   },
   {
     title: 'GDPR Privacy Policy Analyzer',
@@ -22,6 +23,8 @@ export function PortfolioSection() {
     period: '2026',
     bgColor: 'bg-[#6366F1]',
     illustration: '/images/gdpr.png',
+    link: 'mailto:oluwatofunmisin4@gmail.com'
+
   },
   {
     title: 'Nigeria Legal Case Summarizer',
@@ -32,6 +35,7 @@ export function PortfolioSection() {
     period: '2025',
     bgColor: 'bg-[#6366F1]',
     illustration: '/images/sum.png',
+    link: 'mailto:oluwatofunmisin4@gmail.com'
   },
   {
     title: 'Ride Fare Estimator',
@@ -42,6 +46,7 @@ export function PortfolioSection() {
     period: '2025',
     bgColor: 'bg-[#2F81F7]',
     illustration: '/images/fare.png',
+    link: 'mailto:oluwatofunmisin4@gmail.com'
   },
 ];
 
@@ -83,7 +88,9 @@ export function PortfolioSection() {
                 </p>
 
                 <a
-                  href="mailto:oluwatofunmisin4@gmail.com"
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2 font-semibold text-[#0B0B0B] hover:gap-3 transition-all text-sm md:text-base"
                 >
                   Enquire about this work
