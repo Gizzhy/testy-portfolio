@@ -4,6 +4,16 @@ import Image from 'next/image';
 export function PortfolioSection() {
  const projects = [
   {
+    title: 'Contract Risk Analyzer',
+    description:
+      'Contract Risk Analyzer is a LegalTech and data science web application that performs a basic legal risk screening of contract text. The tool checks whether key contract clauses are present, weak, or missing, including payment terms, termination, confidentiality, limitation of liability, indemnity, governing law, dispute resolution, intellectual property, data protection, force majeure, assignment, and restrictive covenants.',
+    tag: 'pandas· Streamlit · Python · ReportLab · Regular Expressions',
+    company: 'Legal Tech Project',
+    period: '2026',
+    bgColor: 'bg-[#6366F1]',
+    illustration: '/images/cra.png',
+  },
+  {
     title: 'GDPR Privacy Policy Analyzer',
     description:
       'GDPR Privacy Policy Analyzer is a LegalTech web app that screens privacy policies for key GDPR transparency requirements. It uses keyword-based text analysis to classify policy sections as Strong, Weak, or Missing, extracts evidence, provides legal recommendations, and generates downloadable CSV and PDF reports.',
